@@ -1,0 +1,43 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "An Axios/Cheerio-Based Web-Scraping App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: No Test Specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alissaestelle/web-scaper.git"
+  },
+  "keywords": [
+    "Axios",
+    "Cheerio",
+    "XML",
+    "JSON",
+    "JavaScript"
+  ],
+  "author": "Alissa Wiley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alissaestelle/web-scaper/issues"
+  },
+  "homepage": "https://github.com/alissaestelle/web-scaper#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json",
+      "*.xml"
+    ]
+  }
+}
